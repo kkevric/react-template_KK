@@ -1,7 +1,13 @@
 
 const App =() =>{
+  const num = 5;
+
+
   return (
-    <div></div>
+    <div>
+      {(num % 2 == 0) && <p> Broj {num} je paran</p>}
+      {(num % 2 != 0) && <p> Broj {num} je neparan</p>}
+    </div>
   );
 }
 
